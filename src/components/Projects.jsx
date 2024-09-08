@@ -23,7 +23,11 @@ className="my-20 text-center text-4xl">Projects</motion.h1>
       className="mb-6 rounded"
       />
     </motion.div>
-    <motion.div className="w-full max-w-xl lg:w-3/4">
+    <motion.div 
+      whileInView={{ opacity: 1, y: 0 }}  
+      initial={{ opacity: 0, y: 100 }}  
+      transition={{ duration: 1 }}
+    className="w-full max-w-xl lg:w-3/4">
     <h6 className="mb-2 font-semibold">{project.title}</h6>
     <p className="mb-4 text-neutral-500">{project.description}</p>
     {project.technologies.map((tech, index) => (
