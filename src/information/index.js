@@ -40,11 +40,11 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Memory-Game",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "In Memory Game, players find pairs of identical cards within a time limit (60 seconds for Easy, 80 seconds for Hard). Sounds signal correct and incorrect matches. A win or timeout message appears at the end, and players can continue without time limits.",
+    technologies: ["HTML5", "CSS5", "JavaScript", ],
   },
   {
     title: "Task Management App",
@@ -58,7 +58,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML5", "CSS5", "React", "Node.js"],
   },
   {
     title: "Blogging Platform",
