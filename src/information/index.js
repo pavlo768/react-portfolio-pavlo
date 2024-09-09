@@ -3,10 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-import certificate1 from "../Certificates/certificate1.pdf";
-import certificate2 from "../Certificates/certificate2.pdf";
-import certificate3 from "../Certificates/certificate3.pdf";
-import certificate4 from "../Certificates/certificate4.pdf";
+
 
 
 export const HERO_CONTENT = `I am a passionate Frontend Developer with a strong desire to create visually appealing and user-friendly web applications. My interest in web development began during my studies, where I discovered my love for coding and problem-solving. I am a quick learner who enjoys exploring new technologies and frameworks, and I thrive in collaborative environments.
@@ -25,7 +22,7 @@ export const EXPERIENCES = [
     company: "SoftServe Academy",
     description: `In this course, I learned to prototype and design layouts for both standard and non-standard web pages, including elements such as burger menus, accordions, and carousels. I develop responsive web pages using media queries and CSS techniques like Flexbox and CSS Grid. I utilize Visual Studio Code as my development environment for web solutions and leverage Git and GitHub for code publishing, hosting, and collaborative project work. I also employ browser development tools and validators to identify defects and errors in the code, as well as fundamental JavaScript constructs such as variables, functions, loops, conditionals, and switch statements, along with data types like numbers, strings, booleans, arrays, and objects to create basic logic for web solutions. Additionally, I implement the object model to manipulate web page elements, use asynchronous JavaScript for communication with web servers, and create a simple backend using Node.js to facilitate data transfer between the frontend and backend.`,
     technologies: ["Javascript", "HTML5", "CSS3", ],
-    certificateLink: certificate1
+ 
   },
   {
     year: "05.02.2024 - 22.03.2024",
@@ -33,7 +30,7 @@ export const EXPERIENCES = [
     company: "SoftServe Academy",
     description: `In this course, I learned to create dynamic and functional websites by combining JavaScript and TypeScript with HTML and CSS to implement dynamic web pages. I implemented interactive elements such as validation, passwords, dynamic buttons, game elements, and more. I utilized asynchronous programming approaches in my development work. I also developed server-side applications by writing code that runs on the backend. Additionally, I effectively used TypeScript for type-checking in the code.`,
     technologies: [, "JavaScript", "Node.js",],
-    certificateLink: certificate2
+   
   },
   {
     year: "01.04.2024 - 17.05.2024",
@@ -41,7 +38,7 @@ export const EXPERIENCES = [
     company: "SoftServe Academy",
     description: `In this course, I learned about the basic data types of SQL, SQL operators responsible for creating database objects, and SQL operators that allow for data manipulation. I gained knowledge of data access tools and SQL constructs for database administration. I learned to design a database for a specific subject area and to use a graphical client to work with the database server. I created and managed database objects, added data to the database, and modified or deleted it. Additionally, I built simple and complex queries to database tables, managed the roles and activities of database users, and utilized SQL queries to access data from software modules.`,
     technologies: ["PostgreSQL", "MySQL", "SQL Server Management Studio", "MongoDB"],
-    certificateLink: certificate3
+
   },
   {
     year: "27.05.2024 - 12.07.2024",
@@ -49,7 +46,7 @@ export const EXPERIENCES = [
     company: "SoftServe Academy",
     description: `In this course, I learned to use deployment, support, and testing tools for software execution environments at a basic level. I learned to create and optimize the infrastructure necessary for software products to operate. I utilized automation technologies for production processes (CI/CD) related to software development and deployment. Additionally, I learned to independently create and use containers and the corresponding tools for working with them.`,
     technologies: ["Git", "Docker", "Kubernetes", "CI/CD", "GitActions", "RestAPI"],
-    certificateLink: certificate4
+
   },
   {
     year: "22.07.2024 - 27.09.2024",
