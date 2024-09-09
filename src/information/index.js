@@ -69,8 +69,8 @@ export const PROJECTS = [
   },
 ];
 
-export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+export const CONTACT = {  
+  address: "Ukraine, Lviv",  
+  phoneNo: ["+380667257145", "+380734182449"],
+  email: "pavlyk376@gmail.com",  
 };
