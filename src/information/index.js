@@ -3,38 +3,50 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate Frontend Developer with a strong desire to create visually appealing and user-friendly web applications. My interest in web development began during my studies, where I discovered my love for coding and problem-solving. I am a quick learner who enjoys exploring new technologies and frameworks, and I thrive in collaborative environments.
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+In the courses I have completed, I have gained essential skills in HTML5, CSS3, and JavaScript, and I am particularly excited about working with React to build dynamic user interfaces. I’m eager to contribute my knowledge and skills to a team focused on innovation and excellence in web development.
+
+My goal is to continuously grow as a developer, exploring new tools and techniques while delivering high-quality projects that enhance user experiences.`;
+
+export const ABOUT_TEXT = `I am an enthusiastic and motivated Frontend Developer with a solid foundation in HTML5, CSS3, and JavaScript. I have completed several courses covering web development fundamentals, practical application of React, as well as database concepts and DevOps. With the knowledge and skills I’ve acquired, I aim to create intuitive and functional web applications.
+I am seeking an opportunity to join a team where I can apply my skills to real-world projects while continuing to grow in the field of frontend development.`;
 
 export const EXPERIENCES = [
   {
-    year: "2024 February-April",
+    year: "05.01.2024 - 31.01.2024",
     role: "HTML5/CSS5/JAVASCRIPT FUNDAMENTALS",
     company: "SoftServe Academy",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "HTML5", "CSS5", ],
+    technologies: ["Javascript", "HTML5", "CSS3", ],
   },
   {
-    year: "2022 - 2023",
-    role: "Database Fundamentals",
-    company: "SoftServe Academy",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: [, "MongoBD", "PostgreSql", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
+    year: "05.02.2024 - 22.03.2024",
     role: "JavaScript Fundamentals",
     company: "SoftServe Academy",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+    technologies: [, "JavaScript", "Node.js",],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
+    year: "01.04.2024 - 17.05.2024",
+    role: "Database Fundamentals",
+    company: "SoftServe Academy",
+    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+    technologies: ["PostgreSQL", "MySQL", "SQL Server Management Studio", "MongoDB"],
+  },
+  {
+    year: "27.05.2024 - 12.07.2024",
+    role: "DevOps for Developers",
+    company: "SoftServe Academy",
     description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    technologies: ["Git", "Docker", "Kubernetes", "CI/CD", "GitActions", "RestAPI"],
+  },
+  {
+    year: "22.07.2024 - 27.09.2024",
+    role: "Practical React",
+    company: "SoftServe Academy",
+    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
+    technologies: ["Redux Toolkit", "React Router", "Node, Fetch, Axios", "Tools (npm, linter, babel, webpack)"],
   },
 ];
 
