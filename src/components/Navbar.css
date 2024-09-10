@@ -14,7 +14,7 @@
   
   .logo-image {
     margin: 0 0.5rem;
-    width: 3.5rem; /* еквівалент w-14 */
+    width: 3.5rem; 
   }
   
   .navbar-icons {
@@ -23,7 +23,7 @@
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    font-size: 1.5rem; /* еквівалент text-2xl */
+    font-size: 1.5rem;
   }
   
   .icon-link {
