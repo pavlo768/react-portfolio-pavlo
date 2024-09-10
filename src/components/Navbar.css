@@ -1,0 +1,36 @@
+.navbar {
+    margin-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+  }
+  
+  .logo-image {
+    margin: 0 0.5rem;
+    width: 3.5rem; /* еквівалент w-14 */
+  }
+  
+  .navbar-icons {
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.5rem; /* еквівалент text-2xl */
+  }
+  
+  .icon-link {
+    transition: transform 0.3s ease;
+  }
+  
+  .icon-link:hover {
+    transform: scale(1.1);
+  }
+  

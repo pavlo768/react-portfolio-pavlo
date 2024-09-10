@@ -1,0 +1,60 @@
+.about-container {
+    border-bottom: 1px solid #171717; /* еквівалент border-neutral-900 */
+    padding-bottom: 1rem;
+  }
+  
+  .about-title {
+    margin: 5rem 0;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  
+  .about-me-text {
+    color: #737373; /* еквівалент text-neutral-500 */
+  }
+  
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .about-image-container, .about-text-container {
+    width: 100%;
+  }
+  
+  @media (min-width: 1024px) { /* lg breakpoint */
+    .about-image-container {
+      width: 50%;
+      padding: 2rem;
+    }
+  
+    .about-text-container {
+      width: 50%;
+    }
+  
+    .about-text-wrapper {
+      justify-content: flex-start;
+    }
+  }
+  
+  .about-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-image {
+    border-radius: 1rem;
+  }
+  
+  .about-text-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-text {
+    margin: 0.5rem 0;
+    padding: 1.5rem 0;
+    max-width: 36rem;
+  }
+  
