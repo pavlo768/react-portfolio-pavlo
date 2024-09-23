@@ -75,12 +75,12 @@ export const PROJECTS = [
     demoLink: "https://quiz-ajy935wxd-pavlos-projects-1dc688f4.vercel.app/" 
   },
   {
-    title: "Portfolio Website",
+    title: "Web-magazine",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Node.js"],
-    demoLink: "https://react-portfolio-pavlo-e0feiwcmg-pavlos-projects-1dc688f4.vercel.app/" 
+      "The `Stickerz` website features a variety of unique stickers for sale. The homepage prominently displays a Baby Yoda sticker, along with other options like a banana sticker, a girl sticker, and a Viking sticker. Each product includes an `Info` button for more details and a `Buy` button for purchasing. The layout is clean and user-friendly, making it easy for visitors to browse and shop for their favorite stickers.",
+    technologies: ["HTML", "CSS", "Java Script", "Node.js"],
+    demoLink: "https://web-magazine-star-wars.vercel.app/" 
   },
   {
     title: "Weather App",
