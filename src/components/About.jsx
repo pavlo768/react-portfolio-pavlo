@@ -1,7 +1,7 @@
 import aboutImg from "../assets/about.jpg";
 import { ABOUT_TEXT } from "../information";
 import { motion } from "framer-motion";
-import "./About.css"; // підключення CSS файлу
+import "./About.css";
 
 const About = () => {
   return (

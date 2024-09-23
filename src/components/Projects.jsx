@@ -1,6 +1,6 @@
 import { PROJECTS } from "../information";
 import { motion } from "framer-motion";
-import './Projects.css'; 
+import './Projects.css';
 
 const Projects = () => {
   return (
@@ -43,6 +43,16 @@ const Projects = () => {
                   {tech}
                 </span>
               ))}
+              {project.demoLink && (
+                <a
+                  href={project.demoLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="demo-button"
+                >
+                  Demo
+                </a>
+              )}
             </motion.div>
           </div>
         ))}

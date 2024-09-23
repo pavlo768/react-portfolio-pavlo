@@ -1,76 +1,102 @@
 .projects-container {
-    border-bottom: 1px solid #212121;
-    padding: 16px;
-  }
-  
-  .projects-title {
-    margin: 80px 0;
-    text-align: center;
-    font-size: 2.5rem;
-  }
-  
+  border-bottom: 1px solid #212121;
+  padding: 16px;
+}
+
+.projects-title {
+  margin: 80px 0;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.project-wrapper {
+  margin-bottom: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-image-container {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.project-image {
+  border-radius: 8px;
+  width: 80%;
+  height: auto;
+}
+
+.project-description-container {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.project-title {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.project-description {
+  margin-bottom: 16px;
+  color: #737373;
+}
+
+.project-technology {
+  margin-right: 8px;
+  border-radius: 4px;
+  background-color: #212121;
+  padding: 4px 8px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #6B21A8;
+}
+
+@media (min-width: 768px) {
   .project-wrapper {
-    margin-bottom: 32px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .project-image-container {
-    width: 100%;
-    max-width: 300px;
-    margin-bottom: 16px;
-    text-align: center;
-  }
-  
-  .project-image {
-    border-radius: 8px;
-    width: 100%;
-    height: auto;
-  }
-  
-  .project-description-container {
-    width: 100%;
-    max-width: 600px;
-    text-align: center;
-  }
-  
-  .project-title {
-    margin-bottom: 8px;
-    font-weight: 600;
-  }
-  
-  .project-description {
-    margin-bottom: 16px;
-    color: #737373;
-  }
-  
-  .project-technology {
-    margin-right: 8px;
-    border-radius: 4px;
-    background-color: #212121;
-    padding: 4px 8px;
-    font-size: 0.875rem;
-    font-weight: 500;
-    color: #6B21A8;
-  }
-  
-  @media (min-width: 768px) {
-    .project-wrapper {
       flex-direction: row;
       align-items: flex-start;
       justify-content: space-between;
-    }
-  
-    .project-image-container {
+  }
+
+  .project-image-container {
       max-width: 30%;
       margin-right: 32px;
-    }
-  
-    .project-description-container {
+  }
+
+  .project-description-container {
       max-width: 65%;
       text-align: left;
-    }
   }
-  
+}
+
+.demo-button {
+  display: block;
+  margin-top: 12px; 
+  padding: 4px 8px; 
+  background-color: #2300b0; 
+  color: #0bef44; 
+  font-weight: 500; 
+  border-radius: 4px; 
+  text-decoration: none;
+  font-size: 0.875rem; 
+  cursor: pointer;
+  text-align: center; 
+  width: fit-content; 
+}
+
+.demo-button:active {
+  background-color: #333333;
+}
+
+/* Для мобільних */
+@media (max-width: 768px) {
+  .demo-button {
+    margin: 12px auto;
+  }
+}
+

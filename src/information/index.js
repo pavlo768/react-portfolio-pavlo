@@ -63,28 +63,32 @@ export const PROJECTS = [
     image: project1,
     description:
       "In Memory Game, players find pairs of identical cards within a time limit (60 seconds for Easy, 80 seconds for Hard). Sounds signal correct and incorrect matches. A win or timeout message appears at the end, and players can continue without time limits.",
-    technologies: ["HTML5", "CSS5", "JavaScript", ],
+    technologies: ["HTML", "CSS", "JavaScript", ],
+    demoLink: "https://memory-game-eta-green.vercel.app/" 
   },
   {
-    title: "Task Management App",
+    title: "Quiz App",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "The Quiz App allows users to answer multiple-choice questions, provides instant feedback on their answers, and displays their total score at the end. Users can navigate through questions and reset the quiz to try again, making it an engaging and educational experience.",
+    technologies: ["HTML", "CSS", "React JS", "Node.js"],
+    demoLink: "https://quiz-ajy935wxd-pavlos-projects-1dc688f4.vercel.app/" 
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML5", "CSS5", "React", "Node.js"],
+    technologies: ["HTML", "CSS", "React", "Node.js"],
+    demoLink: "https://react-portfolio-pavlo-e0feiwcmg-pavlos-projects-1dc688f4.vercel.app/" 
   },
   {
-    title: "Blogging Platform",
+    title: "Weather App",
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["HTML", "CSS", "Java Script", "Node JS",],
+    demoLink: "https://weather-app2-198q86t13-pavlos-projects-1dc688f4.vercel.app/" 
   },
 ];
 
