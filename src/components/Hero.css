@@ -1,90 +1,112 @@
 .hero-container {
-    border-bottom: 1px solid #171717; 
-    padding-bottom: 1rem;
-    display: flex;
-    justify-content: center;
+  border-bottom: 1px solid #171717; 
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-inner {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 72rem; 
+  width: 100%;
+}
+
+.hero-text-container {
+  width: 100%;
+}
+
+@media (min-width: 1024px) { 
+  .hero-text-container {
+    width: 50%;
   }
-  
-  .hero-inner {
+
+  .hero-image-container {
+    width: 50%;
+    padding: 2rem;
+  }
+}
+
+.hero-text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .hero-text-content {
+    align-items: flex-start;
+  }
+}
+
+.hero-title {
+  padding-bottom: 4rem;
+  font-size: 3.75rem;
+  font-weight: 200; 
+  letter-spacing: -0.05em;
+  margin-top: 4rem;
+}
+
+@media (min-width: 1024px) { 
+  .hero-title {
+    font-size: 6rem; 
+  }
+}
+
+.hero-subtitle {
+  background: linear-gradient(to right, #93c5fd, #64748b, #a78bfa); 
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 1.875rem; 
+  letter-spacing: -0.05em;
+}
+
+.hero-description {
+  margin: 0.5rem 0;
+  max-width: 36rem;
+  padding: 1.5rem 0;
+  font-weight: 300; 
+  letter-spacing: -0.05em;
+}
+
+.hero-image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.hero-image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image {
+  border-radius: 0.5rem;
+  object-fit: cover;
+  width: 24rem; 
+  height: 24rem; 
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1); 
+}
+
+/* Додаємо правила для екранів менше ніж 1024px */
+@media (max-width: 1024px) {
+  .hero-image-container {
     display: flex;
-    flex-wrap: wrap;
-    max-width: 72rem; 
+    justify-content: center; /* Центрування зображення для мобільних */
     width: 100%;
+    padding: 0;
   }
-  
+
+  .hero-image {
+    width: 18rem; /* Зменшуємо розмір картинки на менших екранах */
+    height: 18rem;
+  }
+
   .hero-text-container {
     width: 100%;
   }
-  
-  @media (min-width: 1024px) { 
-    .hero-text-container {
-      width: 50%;
-    }
-  
-    .hero-image-container {
-      width: 50%;
-      padding: 2rem;
-    }
-  }
-  
+
   .hero-text-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items: center; /* Центруємо текст і картинку */
   }
-  
-  @media (min-width: 1024px) {
-    .hero-text-content {
-      align-items: flex-start;
-    }
-  }
-  
-  .hero-title {
-    padding-bottom: 4rem;
-    font-size: 3.75rem;
-    font-weight: 200; 
-    letter-spacing: -0.05em;
-    margin-top: 4rem;
-  }
-  
-  @media (min-width: 1024px) { 
-    .hero-title {
-      font-size: 6rem; 
-    }
-  }
-  
-  .hero-subtitle {
-    background: linear-gradient(to right, #93c5fd, #64748b, #a78bfa); 
-    -webkit-background-clip: text;
-    color: transparent;
-    font-size: 1.875rem; 
-    letter-spacing: -0.05em;
-  }
-  
-  .hero-description {
-    margin: 0.5rem 0;
-    max-width: 36rem;
-    padding: 1.5rem 0;
-    font-weight: 300; 
-    letter-spacing: -0.05em;
-  }
-  
-  .hero-image-container {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1rem;
-  }
-  
-  .hero-image-wrapper {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .hero-image {
-    border-radius: 0.5rem;
-    object-fit: cover;
-    width: 24rem; 
-    height: 24rem; 
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1); 
-  }
-  
+}

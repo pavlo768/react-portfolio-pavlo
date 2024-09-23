@@ -22,6 +22,8 @@
   max-width: 300px;
   margin-bottom: 16px;
   text-align: center;
+  display: flex; 
+  justify-content: center; 
 }
 
 .project-image {
@@ -48,6 +50,7 @@
 
 .project-technology {
   margin-right: 8px;
+  margin-bottom: 8px; 
   border-radius: 4px;
   background-color: #212121;
   padding: 4px 8px;
@@ -76,16 +79,16 @@
 
 .demo-button {
   display: block;
-  margin-top: 12px; 
-  padding: 4px 8px; 
-  background-color: #2300b0; 
-  color: #0bef44; 
-  font-weight: 500; 
-  border-radius: 4px; 
+  margin: 12px auto; 
+  padding: 8px 16px; 
+  background-color: #2300b0;
+  color: #0bef44;
+  font-weight: 500;
+  border-radius: 4px;
   text-decoration: none;
-  font-size: 0.875rem; 
+  font-size: 0.875rem;
   cursor: pointer;
-  text-align: center; 
+  text-align: center;
   width: fit-content; 
 }
 
@@ -93,10 +96,38 @@
   background-color: #333333;
 }
 
-/* Для мобільних */
 @media (max-width: 768px) {
   .demo-button {
-    margin: 12px auto;
+    margin: 12px auto; 
   }
 }
 
+
+.project-technology {
+  margin-right: 8px; 
+  margin-bottom: 8px;
+  border-radius: 4px;
+  background-color: #212121;
+  padding: 4px 12px;
+  font-size: 0.75rem; 
+  font-weight: 500;
+  color: #6B21A8;
+  display: inline-block; 
+  text-align: center;
+}
+
+.project-wrapper {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+}
+
+@media (max-width: 768px) {
+  .project-technology {
+    margin-right: 8px; 
+    margin-bottom: 8px; 
+    padding: 4px 8px;
+    font-size: 0.75rem;
+    display: inline-block; 
+  }
+}
