@@ -86,7 +86,7 @@ export const PROJECTS = [
     title: "Weather App",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+      "This app provides weather information, including temperature, humidity, and wind speed. The interface is simple and user-friendly, with the ability to search for different cities.",
     technologies: ["HTML", "CSS", "Java Script", "Node JS",],
     demoLink: "https://weather-app2-198q86t13-pavlos-projects-1dc688f4.vercel.app/" 
   },
