@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
 
 
 
@@ -89,6 +90,14 @@ export const PROJECTS = [
       "This app provides weather information, including temperature, humidity, and wind speed. The interface is simple and user-friendly, with the ability to search for different cities.",
     technologies: ["HTML", "CSS", "Java Script", "Node JS",],
     demoLink: "https://weather-app2-198q86t13-pavlos-projects-1dc688f4.vercel.app/" 
+  },
+  {
+    title: "Foto-Gallery",
+    image: project5,
+    description:
+      "This photo gallery provides users with the ability to browse collections of various photos arranged in a grid. The photos include images of nature, architecture, and various landscapes, creating an attractive visual experience. The interface is simple and intuitive, making it easy to navigate through the photos, providing a comfortable viewing experience.",
+    technologies: ["TypeScript",  "Java Script", "Node JS", "React"],
+    demoLink: "https://foto-gallery-red.vercel.app/" 
   },
 ];
 
