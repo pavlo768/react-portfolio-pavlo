@@ -103,6 +103,6 @@ export const PROJECTS = [
 
 export const CONTACT = {  
   address: "Ukraine, Lviv",  
-  phoneNo: ["+380667257145", "+380734182449"],
+  phoneNo: ["+380667257145", "+380995642379"],
   email: "pavlyk376@gmail.com",  
 };

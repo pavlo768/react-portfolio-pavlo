@@ -10,10 +10,7 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-icons">
-        <a href="https://www.linkedin.com/in/pavlo-radionov-7191a21ba/" target="_blank" rel="noopener noreferrer" className="icon-link">
-          <FaLinkedin />
-        </a>
-        <a href="https://github.com/pavlo768" target="_blank" rel="noopener noreferrer" className="icon-link">
+      <a href="https://github.com/pavlo768" target="_blank" rel="noopener noreferrer" className="icon-link">
           <FaGithub />
         </a>
         <a href="https://www.instagram.com/golini978/?next=%2F" target="_blank" rel="noopener noreferrer" className="icon-link">
